@@ -1,0 +1,9 @@
+@apiPrefix = /api/v1
+@port = 4000
+@baseUrl = http://localhost:{{port}}{{apiPrefix}}
+
+
+###
+{{baseUrl}}/version
+###
+{{baseUrl}}/download
